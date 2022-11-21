@@ -16,7 +16,7 @@ function Dashboard() {
   const [isEditing, setIsEditing] = useState(false);
   const [query, setQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPage = useState(5);
+  const [postsPerPage] = useState(5);
 
   const lastEmpIndex = currentPage * postsPerPage;
 
