@@ -5,7 +5,7 @@ function Header({ setIsAdding, setQuery }) {
     <header>
       <nav className="navbar bg-light">
         <div className="container-fluid">
-          <a className="navbar-brand">Employee Management System</a>
+          <button className="navbar-brand">Employee Management System</button>
           <form className="d-flex" role="search">
             <input
               className="form-control me-2"
